@@ -1,1 +1,3 @@
 keys.json
+.terraform
+.terraform.lock.hcl
