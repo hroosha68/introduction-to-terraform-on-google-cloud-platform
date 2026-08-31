@@ -1,7 +1,6 @@
 variable "project_id" {
   description = "The project ID to deploy resources"
   type        = string
-  default     = "learning-terraform-505110"
 }
 
 variable "region" {
@@ -12,8 +11,6 @@ variable "region" {
 
 variable "network_name" {
   description = "The name of the VPC network"
-  type        = string
-  default     = "app"
 }
 
 variable "network_ip_range" {
@@ -36,8 +33,6 @@ variable "image_family" {
 
 variable "app_name" {
   description = "The name of the application"
-  type        = string
-  default     = "blog"
 }
 
 variable "machine_type" {
