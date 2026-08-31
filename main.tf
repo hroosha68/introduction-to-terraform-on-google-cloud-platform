@@ -1,5 +1,5 @@
 module "qa" {
-  source = ".modules/blog"
+  source = "./modules/blog"
 
   app_name     = "qa-blog"
   network_name = "qa"
