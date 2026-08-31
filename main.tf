@@ -18,7 +18,7 @@ module "app-network" {
       name          = "${var.network_name}-web"
       description   = "Inbound web traffic"
       source_ranges = ["0.0.0.0/0"]
-      target_tags   = "${var.network_name}-web"
+      target_tags   = ["${var.network_name}-web"]
 
 
       allow = [
